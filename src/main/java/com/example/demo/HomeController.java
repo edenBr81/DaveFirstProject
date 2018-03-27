@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class HomeController {
-       // add a commment
+       // add a comment
     @RequestMapping("/loadForm")
     public String loadFormPage(){
         // System.out.println("in the loadForm method");
