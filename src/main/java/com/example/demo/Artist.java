@@ -2,7 +2,6 @@ package com.example.demo;
 
 public class Artist {
     private long id;
-    private String name;
 
     public long getId() {
         return id;
@@ -28,14 +27,15 @@ public class Artist {
         this.stage_name = stage_name;
     }
 
-    public String getTour() {
-        return tour;
+    public String getTour_bus() {
+        return tour_bus;
     }
 
-    public void setTour(String tour) {
-        this.tour = tour;
+    public void setTour_bus(String tour_bus) {
+        this.tour_bus = tour_bus;
     }
 
+    private String name;
     private String stage_name;
-    private String tour bus;
+    private String tour_bus;
 }
